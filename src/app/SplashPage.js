@@ -13,17 +13,17 @@ export default class SplashPage extends Component {
           <div className='splash-background' />
           <div className='bx--col-xs-8'>
             <img src={logo} alt='Logo' className='splash-logo' />
-            <h1 className='pui-h0'>The Next Mega-Trend<br />in Crypto is the Emergence<br /> of Securities Tokens</h1>
+            <h1 className='pui-h0'>
+              The Next Mega-Trend<br />in Crypto is the Emergence<br /> of Securities Tokens
+            </h1>
             <h3 className='pui-h3'>
-              Polymath enables trillions of dollars of securities
-              to be issued<br /> and traded on the blockchain.
+              Polymath enables trillions of dollars of securities to be issued<br /> and traded on the blockchain.
             </h3>
-            <br /><br />
+            <br />
+            <br />
             <p>
               <Link to='/ticker'>
-                <Button icon='arrow--right'>
-                  ISSUE YOUR SECURITY TOKEN
-                </Button>
+                <Button icon='arrow--right'>CREATE YOUR SECURITY TOKEN</Button>
               </Link>
             </p>
           </div>
