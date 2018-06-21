@@ -9,6 +9,8 @@ import { MetamaskPage } from 'polymath-ui'
 
 import Root from './app/Root'
 import SplashPage from './app/SplashPage'
+import TermsOfUsePage from './app/terms/TOUPage'
+import PrivacyPage from './app/terms/PrivacyPage'
 import routes from './routes'
 
 type Props = {
@@ -25,6 +27,18 @@ class RouteLoader extends Component<Props> {
       return (
         <Root>
           <SplashPage />
+        </Root>
+      )
+    } else if (this.props.location.pathname === '/privacypolicy') {
+      return (
+        <Root>
+          <PrivacyPage />
+        </Root>
+      )
+    } else if (this.props.location.pathname === '/termsofuse') {
+      return (
+        <Root>
+          <TermsOfUsePage />
         </Root>
       )
     }
